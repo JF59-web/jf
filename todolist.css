@@ -1,0 +1,74 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-image: url('https://ik.imagekit.io/h4f6pvovu/todolistbg.webp'); /* Replace with your background image */
+    background-size: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+    width: 300px; 
+}
+
+.title {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 0.9em;
+    margin-bottom: 20px;
+}
+
+.task-title {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.task-description {
+    font-size: 0.9em;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.start-button {
+    background-color: #f9a825;
+    color: black;
+    padding: 10px;
+    width: 50%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.start-button:hover {
+    background-color: #ffca28;
+}
+
+.skip-link {
+    display: block;
+    margin-top: 15px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+.skip-link:hover {
+    text-decoration: underline;
+}
